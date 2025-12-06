@@ -1,0 +1,14 @@
+# Minimal requirements for FastAPI backend
+# Loosely pinned to allow upgrades while remaining stable.
+fastapi>=0.95,<1.0
+uvicorn[standard]>=0.18,<1.0
+pydantic>=1.10,<2.0
+python-dotenv>=1.0,<2.0
+httpx>=0.23,<1.0
+
+# Optional: for handling multipart file uploads (if needed later)
+# python-multipart>=0.0.6
+
+# Google Generative AI client for accessing Gemini models (loose pin)
+google-generativeai==0.8.5
+
